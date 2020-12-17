@@ -9,14 +9,14 @@ function GlobalStats({stats}) {
 
     return (
         <div className='global-stats'>
-            <small>更新于 {new Date(updated).toLocaleString()}</small>
+            <small>Updated At {new Date(updated).toLocaleString()}</small>
             <table>
                 <tbody>
                     <tr>
-                        <td>病例：<Stat number={cases} color='red'></Stat></td>
-                        <td>死亡：<Stat number={deaths} color='gary'></Stat></td>
-                        <td>恢复：<Stat number={recovered} color='green'></Stat></td>
-                        <td>现存：<Stat number={active} color='orange'></Stat></td>
+                        <td>cases：<Stat number={cases} color='red'></Stat></td>
+                        <td>deaths：<Stat number={deaths} color='gary'></Stat></td>
+                        <td>recovered：<Stat number={recovered} color='green'></Stat></td>
+                        <td>active：<Stat number={active} color='orange'></Stat></td>
                     </tr>
                 </tbody>
 
