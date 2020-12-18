@@ -32,7 +32,7 @@ function HistoryChart({title, data, lastDays, onLastDaysChange}) {
                         <stop offset='95%' stopColor={color} stopOpacity={0} />
                     </linearGradient>
                 </defs>
-                <XAxis dataKey='tiem' />
+                <XAxis dataKey='time' />
                 <YAxis />
                 <CartesianGrid strokeDasharray='3.3'/>
                 <Tooltip />
