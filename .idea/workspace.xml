@@ -2,23 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a1fbdd8-8a23-4fb0-86e8-b2242c72c759" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/covid-19-with-hooks.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/App.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/CountriesChart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/GlobalStats.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/HistoryChart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SelectDataKey.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hooks/useCoronaAPI.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reportWebVitals.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/setupTests.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CountriesChart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CountriesChart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HistoryChartGroup.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HistoryChartGroup.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SelectDataKey.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SelectDataKey.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hooks/useCoronaAPI.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/useCoronaAPI.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +34,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../covid-19-with-hooks-master" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -59,7 +49,17 @@
       <recent name="D:\base_spance\covid-19-with-hooks\src" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="npm.start">
+    <configuration name="eject" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="eject" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -72,6 +72,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.eject" />
         <item itemvalue="npm.start" />
       </list>
     </recent_temporary>
@@ -89,7 +90,8 @@
       <workItem from="1607657833227" duration="12413000" />
       <workItem from="1607909133075" duration="1102000" />
       <workItem from="1607912915744" duration="150000" />
-      <workItem from="1608184735131" duration="6383000" />
+      <workItem from="1608184735131" duration="11018000" />
+      <workItem from="1608255154188" duration="6647000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1607679966430</created>
@@ -98,7 +100,21 @@
       <option name="project" value="LOCAL" />
       <updated>1607679966430</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="使用useEffect，useCallback等">
+      <created>1608192392593</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1608192392593</updated>
+    </task>
+    <task id="LOCAL-00003" summary="新增各个国家历史数据">
+      <created>1608195756273</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1608195756273</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,6 +134,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="使用useEffect，useCallback等" />
+    <MESSAGE value="新增各个国家历史数据" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增各个国家历史数据" />
   </component>
 </project>

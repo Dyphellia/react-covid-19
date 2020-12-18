@@ -1,6 +1,18 @@
-import React from "react";
+import React, { useContext } from "react";
+
+import { AppDispatch } from "../App";
 
 function SelectDataKey({onChange}){
+
+    const dispatch = useContext(AppDispatch)
+
+    function onChange(e) {
+        dispatch( {
+            type: 'SET_KEY',
+            key: e.target.value
+        })
+    }
+
     return(
         <>
             <label htmlFor="key-select"> Please Choose：</label>

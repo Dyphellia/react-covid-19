@@ -1,6 +1,6 @@
 import { useState, useEffect, useCallback}  from 'react'
 
-const BASE_URL = 'https://corona.lmao.ninja/v2'
+export const BASE_URL = 'https://corona.lmao.ninja/v2'
 
 export function useCoronaAPI(
     path,

@@ -1,20 +1,22 @@
-import React, {useState} from "react";
+import React, { useContext } from "react";
 
 import HistoryChart from "./HistoryChart";
-import {transformHisory} from "../utils";
+import { transformHisory } from "../utils";
 
-function HistoryChartGroup({history={}}){
-    const [lastDays, setLastDays] = useState({
-        cases:30,
-        deaths:30,
-        recovered:30
-    })
+import { AppDispatch } from "../App";
+
+function HistoryChartGroup( {history={}, lastDays={} }){
+
+    const dispatch = useContext(AppDispatch)
 
     function handleLastDaysChange(e, key){
-        setLastDays((prev)=>({
-            ...prev,
-            [key]:e.target.value
-        }))
+        dispatch(
+            {
+                type:'SET_LASTDYAS',
+                key,
+                days: e.target.value
+            }
+        )
     }
 
     return(
